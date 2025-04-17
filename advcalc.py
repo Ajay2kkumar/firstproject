@@ -17,8 +17,8 @@ print("1. Add\n2. Subtract\n3. Multiply\n4. Divide\n5. Square\n6. Square Root")
 choice = input("Choose operation (1–6): ")
 
 if choice in ['1', '2', '3', '4']:
-    a = float(input("Enter first number: "))
-    b = float(input("Enter second number: "))
+    a = float(input("Enter first number:"))
+    b = float(input("Enter second number:"))
     if choice == '1': print("Result:", calc.add(a, b))
     elif choice == '2': print("Result:", calc.subtract(a, b))
     elif choice == '3': print("Result:", calc.multiply(a, b))
